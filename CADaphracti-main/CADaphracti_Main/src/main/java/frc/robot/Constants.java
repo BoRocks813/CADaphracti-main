@@ -12,7 +12,7 @@ package frc.robot;
  * <p>It is advised to statically import this class (or one of its inner classes) wherever the
  * constants are needed, to reduce verbosity.
  */
-public final class Constants {}
+public final class Constants {
     //Chassis Motor Ports
     /* ***IMPORTANT***
     DOUBLE CHECK TO SEE IF THESE ARE THE RIGHT PORTS
@@ -25,4 +25,5 @@ public final class Constants {}
     public static final int DRIVER_CONTROLLER = 0;
 
     public static final int DRIVER_CONTROLLER_MOVE_AXIS = (int) RobotContainer.driverController.getY(Hand.kLeft);
-    public static final int DRIVER_CONTROLLER_MOVE_AXIS = (int) RobotContainer.driverController.getX(Hand.kLeft);
+    public static final int DRIVER_CONTROLLER_ROTATE_AXIS = (int) RobotContainer.driverController.getX(Hand.kLeft);
+}
